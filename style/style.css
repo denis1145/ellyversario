@@ -9,6 +9,13 @@ body {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'gotico';
+    src: url('../OldLondon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .gif-header {
     background-image: url('../imagens/cruzontes.gif'); 
     background-size: contain; /* Redimensiona a imagem para caber inteiramente dentro do elemento pai */
@@ -41,6 +48,11 @@ h1 {
     font-size: 14vw;
     text-align: center;
     color: rgb(255, 255, 255);
+}
+
+.mt-3{
+    font-family: 'gotico';
+    color: white;
 }
 
 .container {
